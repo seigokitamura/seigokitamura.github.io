@@ -1,65 +1,31 @@
 # Seigo Kitamura – Portfolio
 
-This repository hosts my personal portfolio website built with **Next.js** and **Tailwind CSS**, and deployed using **GitHub Pages**.
+This repository contains my personal portfolio site.
 
-## 🚀 Tech Stack
-- **Framework:** Next.js 15+
-- **Styling:** Tailwind CSS
-- **Deployment:** GitHub Pages (`next export`)
-- **Language:** TypeScript
+## Tech Stack
+- HTML5
+- CSS3 (Flexbox/Grid)
+- Vanilla JavaScript
 
-## 📁 Project Structure
+## Project Structure
 ```
-seigokitamura-profile/
-├── public/          # Static assets (favicon, images, etc.)
-├── styles/          # Global CSS / Tailwind configuration
-├── pages/           # Next.js pages
-├── components/      # Reusable UI components
-├── package.json
-├── README.md
-└── next.config.mjs
-```
-
-## 📦 Installation
-```bash
-npm install
+.
+├── index.html
+├── styles.css
+├── script.js
+├── public/
+│   └── favicon.svg
+├── .nojekyll
+└── README.md
 ```
 
-If you encounter permission issues (`EACCESS`, `EEXIST`), clear the npm cache:
-```bash
-sudo rm -rf ~/.npm/_cacache
-npm cache clean --force
-npm install
-```
+## Local Preview
+Open index.html in a browser.
 
-## 🧪 Local Development
-```bash
-npm run dev
-```
-Then open:
-```
-http://localhost:3000
-```
+## Deployment
+This is a static site and can be deployed directly to GitHub Pages.
 
-## 🏗️ Build & Export (for GitHub Pages)
-Since Next.js 14 removed next export,
-static export is automatically performed during the build when using:
-```bash
-npm run build
-```
-
-This generates a `out/` directory.
-The generated `out/` directory is synced into the gh-pages branch.
-
-## 🌐 Deploy to GitHub Pages
-Commit and push your changes.  
-Then go to:
-
-**GitHub → Settings → Pages → Deploy from folder → `out/`**
-
-## 📬 Contact
-- GitHub: https://github.com/k5tar
+## Contact
+- GitHub: https://github.com/seigokitamura
 - LinkedIn: https://www.linkedin.com/in/seigo-kitamura/
-- Email: k5tar4biz@gmail.com
-
----
+- Email: seigo.kitamura@hotmail.com
