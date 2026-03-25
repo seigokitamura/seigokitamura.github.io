@@ -15,7 +15,6 @@ This repository contains my personal portfolio site.
 ├── script.js
 ├── public/
 │   └── favicon.svg
-├── .nojekyll
 └── README.md
 ```
 
